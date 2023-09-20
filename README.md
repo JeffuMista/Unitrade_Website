@@ -1,8 +1,4 @@
-# React + Vite
+# Unitrade - ICP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+UniTrade: A decentralized e-commerce platform harnessing the power of blockchain technology to offer a secure, transparent, and efficient marketplace for buying and selling merchandise.
+A ReactJS E-commerce platfrom utilizing ICP canisters(smart contracts) in the back-end.
