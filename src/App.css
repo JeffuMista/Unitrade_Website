@@ -119,7 +119,8 @@ a:hover a:visited a:after {
 }
 .footer .socials .footerbtn button {
   border: 0;
-  background-image: linear-gradient(to right,rgba(255, 255, 0, 0.618), rgba(0, 153, 255, 0.572));
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(123deg, #FFD601 -35.27%, #5503DA 96.29%);
+
   padding: 10px;
   font-size: 20px;
   color: #FFFFFF;
@@ -242,7 +243,7 @@ a:hover a:visited a:after {
   width: 484px;
 }
 .banner button {
-  background-image: linear-gradient(to right,rgba(255, 255, 0, 0.618), rgba(0, 153, 255, 0.572));
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(123deg, #FFD601 -35.27%, #5503DA 96.29%);
   padding: 10px;
   font-size: 25px;
   color:#FFFFFF;
@@ -415,7 +416,6 @@ margin-left: 296px;
   justify-content: space-between;
 }
 .checkin-container {
-  width: 55%;
   text-align: center;
   margin-top: 37px;
   justify-content: center;
@@ -456,38 +456,141 @@ justify-content: center;
   align-items: center;
   border-radius: 50px;
   text-align: center;
+  position: relative;
+  font-size: 24px;
+  color: #2B2A2A;
+  /* background-image: url(src/assets/Name.png) ;
+  background-repeat: no-repeat;
+  background-position: start;
+  background-position-y: 50%;
+  background-position: 50px; */
+  
 }
 .inputs {
   gap: 106px;
 }
-.contact h1 {
-  align-items: center;
+.contact {
+  display:flex;
+  flex-direction: column;
+}
+.contact h3 {
+color: #B7B7B7;
+font-family: Nunito;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 21.6px;
+margin-bottom: 15px;
+margin-left: -365px;
+}
+.signup-contact h3 {
+color: #B7B7B7;
+font-family: Nunito;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 21.6px;
+margin-bottom: 15px;
+margin-left: -425px;
+}
+.contact input {
+  background-image: url(src/assets/Name.png) ;
+  background-repeat: no-repeat;
+  background-position: start;
+  background-position-y: 50%;
+  background-position: 50px;
 }
 .input {
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50px;
+  color: #B7B7B7;
 }
-/* .input img {
-  margin-left: 200px;
-} */
+.input ::placeholder {
+  /* text-align: left; */
+  font-size: 24px;
+  margin-left: 190px;
+  
+}
+.input img {
+  margin-left: px;
+}
 .checkin-btn {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
   width: 540px;
   height: 72px;
   background-color: #5503DA;
   border-radius: 50px;
   margin-top: 50px;
-  object-position: center;
-  margin-left: 360px;
+  margin-left: 325px;
+  cursor: pointer;
+}
+.checkin-btn img {
+  margin-right: 20px;
+}
+.checkin-btn h1 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: #FFF;
+}
+.password h3 {
+  color: #B7B7B7;
+  font-family: Nunito;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21.6px;
+  margin-bottom: 15px;
+  margin-left: -400px;
+  margin-top: 30px;
+  }
+.signup-password h3 {
+  color: #B7B7B7;
+  font-family: Nunito;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21.6px;
+  margin-bottom: 15px;
+  margin-left: -320px;
+  margin-top: 30px;
+}
+.password input {
+  background-image: url(src/assets/Password.png) ;
+  background-repeat: no-repeat;
+  background-position: start;
+  background-position-y: 50%;
+  background-position: 50px;
+}
+.password ::placeholder {
+  margin-left : 220px;
 }
 .signup-banner {
+  display: flex;
   background-color: #2C0669;
   align-items: center;
-  background-image: src="src/assets/Background.png";
+  justify-content: center;
+  background-image: url(src/assets/Background.png);
   width: 642px;
   text-align: center;
+  color: #fff;
+}
+.signup-banner h1 {
+  font-size: 70px;
+  font-weight: 700;
+}
+.signup-banner h2 {
+  font-size: 96px;
+  font-weight: 700;
+  margin-top: 90px;
+}
+.signup-banner h3 {
+  font-size: 34px;
+  font-weight: 500;
 }

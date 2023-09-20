@@ -9,22 +9,24 @@ function Checkin() {
                 <h2>Log in into your account</h2>
                 <div className="inputs">
                     <div className="contact">
-                        <h3>Phone number</h3>
+                        <div>
+                            <h3>Phone number</h3>
+                        </div>
                         <div className="input">
-                        <img src="src/assets/Name.png" alt="Contact" />
-                        <input type="text" placeholder="Phone number" />
+                        <input type="image text" src="src/assets/Name.png"placeholder="Phone number" />
                         </div>
                     </div>
                     <div className="password">
                         <h3>Password</h3>
                         <div className="input">
-                        <img src="src/assets/Password.png" alt="Password" />
                         <input type="text" placeholder="Password" />
                         </div>
                     </div>
                     <div className="checkin-btn">
-                                <img src="src/assets/Login.png" alt="Login" />
-                                <h1>Log In </h1>
+                                    <h1>
+                                        <img src="src/assets/Login.png" alt="Login" />
+                                        Log In
+                                    </h1>
                     </div>
                 </div>
             </div>
@@ -33,9 +35,6 @@ function Checkin() {
                     <h1> Welcome to</h1>
                     <h2> UniTrade</h2>
                     <h3> For better trading</h3>
-                </div>
-                <div className="welcome-img">
-                    <img src="" alt="" />
                 </div>
             </div>
             
