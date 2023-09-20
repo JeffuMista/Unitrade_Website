@@ -7,9 +7,9 @@ import Register from "../components/Register";
 function Signup() {
     return (
         <div>
-            <Nav />
+            {/* <Nav /> */}
             <Register />
-            <Footer />
+            {/* <Footer /> */}
         </div>
     )
 }

@@ -6,9 +6,9 @@ import Checkin from "../components/Checkin";
 function Login() {
     return (
         <div>
-            <Nav />
+            {/* <Nav /> */}
             <Checkin />
-            <Footer />
+            {/* <Footer /> */}
         </div>
     )
 }
