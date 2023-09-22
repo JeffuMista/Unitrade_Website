@@ -1,13 +1,13 @@
-
+import { Link } from "react-router-dom"
 function Register () {
     return (
         <div>
             <div className="checking">
             <div className="checkin-container">
                 <div className="login-logo">
-                <img src="src/assets/Unitradelogo2.png" alt="UniTrade" className="unitradelogo"/>
+                <Link to='/'><img src="src/assets/Unitradelogo2.png" alt="UniTrade" className="unitradelogo"/></Link>
                 </div>
-                <h1>Sign up for your account</h1>
+                <h1 className='signup-h1'>Sign up for your account</h1>
                 <div className="inputs">
                     <div className="contact signup-contact h3">
                         <div>

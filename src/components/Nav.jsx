@@ -1,27 +1,44 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
- function Nav() {
+function Nav() {
+              //   const aboutInfo = document.getElementsByClassName("about-info");
+              //   const contactInfo = document.getElementsByClassName("contact-info")
+              //   const Footer = document.getElementsByClassName("footer")
+              //   aboutInfo.addEventListener("click", scrollToBottom());
+              //   contactInfo.addEventListener("click", scrollToBottom());
+              //   function scrollToBottom() {
+              //   Footer.scrollIntoView({behavior: 'smooth'})
+              // }
     return (
         <div className='navbarcontainer'>
           <div className="navbar">
           <div className="logo">
-            <img src="src\assets\Unitradelogo.png" alt="UniTrade" /> 
+            <Link to='/'><img src="src\assets\Unitradelogo.png" alt="UniTrade" /></Link>
             <h1>UniTrade</h1>
           </div>
           <nav className='navigation'>
             <ul>
-                <li><a href="" rel="noreferrer noopener" target="_blank">Home</a></li>
-                <li><a href="" rel="noreferrer noopener" target="_blank">About</a></li>
-                <li><a href=""rel="noreferrer noopener" target="_blank">Shop</a></li>
-                <li><a href=""rel="noreferrer noopener" target="_blank">Contact</a></li>
+                <li>
+                  <Link to='/'>Home</Link>
+                  </li>
+                <li className="about-info">
+                  <Link to='/'>About</Link> 
+                </li>
+                <li>
+                  <Link to='/products'>Shop</Link> 
+                </li>
+                <li className='contact-info'>
+                  <Link to='/'>Contact</Link>
+                </li> 
             </ul>
           </nav>
             <div className='navbtn'>
-                <button type='button'>Join our platform</button>
+                <Link to='/signup'><button type='button'>Join our platform</button></Link>
             </div>
+            {/* scrollToBottom(); */}
           </div>
         </div>
-
       );
 }
 export default Nav

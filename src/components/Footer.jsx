@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Footer() {
     return (
@@ -6,7 +7,7 @@ function Footer() {
         <div className="footer">
             <div className="socials">
                 <div className="footerlogo">
-                <img src="src\assets\Unitradelogo.png" alt="UniTrade"></img>
+                <Link to='/'><img src="src\assets\Unitradelogo.png" alt="UniTrade"></img></Link>
                 <h1>Secure, Transparent, and Efficient Online Shopping on the Blockchain</h1>
                 </div>
                 <ul>
@@ -27,7 +28,7 @@ function Footer() {
                     </li>
                 </ul>
                 <div className="footerbtn">
-                    <button>Join our Platform</button>
+                    <Link to='/signup'><button>Join our Platform</button></Link>
                 </div>
             </div>
             <div className="about">

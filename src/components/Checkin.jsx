@@ -1,9 +1,11 @@
+import { Link } from "react-router-dom"
+
 function Checkin() {
     return (
         <div className="checking">
             <div className="checkin-container">
                 <div className="login-logo">
-                <img src="src/assets/Unitradelogo2.png" alt="UniTrade" className="unitradelogo"/>
+                <Link to='/'><img src="src/assets/Unitradelogo2.png" alt="UniTrade" className="unitradelogo"/> </Link>
                 </div>
                 <h1>Welcome Back!</h1>
                 <h2>Log in into your account</h2>
