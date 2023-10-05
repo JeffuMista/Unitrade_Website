@@ -7,23 +7,23 @@ function Footer() {
         <div className="footer">
             <div className="socials">
                 <div className="footerlogo">
-                <Link to='/'><img src="src\assets\Unitradelogo.png" alt="UniTrade"></img></Link>
+                <Link to='/'><img src="Unitradelogo.png" alt="UniTrade"></img></Link>
                 <h1>Secure, Transparent, and Efficient Online Shopping on the Blockchain</h1>
                 </div>
                 <ul>
                     <li>
                         <a href="https://www.facebook.com/" rel="noreferrer noopener" target="_blank">
-                        <img src="src/assets/Facebook.png" alt="Facebook" />
+                        <img src="Facebook.png" alt="Facebook" />
                         </a>
                     </li>
                     <li>
                         <a href="https://www.instagram.com/" rel="noreferrer noopener" target="_blank">
-                        <img src="src/assets/Instagram.png" alt="Instagram" />
+                        <img src="Instagram.png" alt="Instagram" />
                         </a>
                     </li>
                     <li>
                         <a href="https://twitter.com/home" rel="noreferrer noopener" target="_blank">
-                        <img src="src/assets/TwitterX.png" alt="TwitterX" />
+                        <img src="TwitterX.png" alt="TwitterX" />
                         </a>
                     </li>
                 </ul>

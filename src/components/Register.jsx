@@ -5,7 +5,7 @@ function Register () {
             <div className="checking">
             <div className="checkin-container">
                 <div className="login-logo">
-                <Link to='/'><img src="src/assets/Unitradelogo2.png" alt="UniTrade" className="unitradelogo"/></Link>
+                <Link to='/'><img src="Unitradelogo2.png" alt="UniTrade" className="unitradelogo"/></Link>
                 </div>
                 <h1 className='signup-h1'>Sign up for your account</h1>
                 <div className="inputs">
@@ -14,7 +14,7 @@ function Register () {
                             <h3>Name</h3>
                         </div>
                         <div className="input">
-                        <input type="image text" src="src/assets/Name.png"placeholder="Phone number" />
+                        <input type="image text" src="Name.png"placeholder="Phone number" />
                         </div>
                     </div>
                     <div className="contact">
@@ -22,7 +22,7 @@ function Register () {
                             <h3>Phone number</h3>
                         </div>
                         <div className="input">
-                        <input type="image text" src="src/assets/Name.png"placeholder="Phone number" />
+                        <input type="image text" src="Name.png" placeholder="Phone number" />
                         </div>
                     </div>
                     <div className="password">
@@ -39,7 +39,7 @@ function Register () {
                     </div>
                     <div className="checkin-btn">
                                     <h1>
-                                        <img src="src/assets/Login.png" alt="Login" />
+                                        <img src="Login.png" alt="Login" />
                                         Sign Up
                                     </h1>
                     </div>

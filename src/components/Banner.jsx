@@ -15,9 +15,9 @@ function Banner() {
                 </Link>
             </div>
             <div className="bannerimg">
-                 <img src="src/assets/Banner.png" alt="Banner" />
+                 <img src="Banner.png" alt="Banner" />
             </div>
         </div>
     )
-};
+}
 export default Banner

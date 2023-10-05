@@ -514,7 +514,7 @@ Link :hover :visited :after {
   margin-left: -425px;
 }
 .contact input {
-  background-image: url(src/assets/Name.png);
+  background-image: url(Name.png);
   background-repeat: no-repeat;
   background-position: start;
   background-position-y: 50%;
@@ -580,7 +580,7 @@ Link :hover :visited :after {
   margin-top: 30px;
 }
 .password input {
-  background-image: url(src/assets/Password.png);
+  background-image: url(Password.png);
   background-repeat: no-repeat;
   background-position: start;
   background-position-y: 50%;
@@ -594,7 +594,7 @@ Link :hover :visited :after {
   background-color: #2c0669;
   align-items: center;
   justify-content: center;
-  background-image: url(src/assets/Background.png);
+  background-image: url(Background.png);
   width: 642px;
   text-align: center;
   color: #fff;

@@ -14,7 +14,7 @@ function Nav() {
         <div className='navbarcontainer'>
           <div className="navbar">
           <div className="logo">
-            <Link to='/'><img src="src\assets\Unitradelogo.png" alt="UniTrade" /></Link>
+            <Link to='/'><img src="Unitradelogo.png" alt="UniTrade" /></Link>
             <h1>UniTrade</h1>
           </div>
           <nav className='navigation'>

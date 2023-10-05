@@ -8,7 +8,7 @@ function Help() {
                 <div className="helpbox">
                     <h2>Get in touch with us</h2>
                     <a href="">
-                        <img src="src/assets/Next page.png" alt="Next Page" />
+                        <img src="Next page.png" alt="Next Page" />
                     </a>
                 </div>
                 <div className="caption">
