@@ -425,7 +425,6 @@ Link :hover :visited :after {
   margin-top: -68px;
   left: 0;
   margin-left: 32px;
-  /* left: 375px; */
 }
 .shopper .shopper2 {
   position: absolute;
@@ -529,7 +528,6 @@ Link :hover :visited :after {
   color: #b7b7b7;
 }
 .input ::placeholder {
-  /* text-align: left; */
   font-size: 24px;
   margin-left: 190px;
 }
@@ -620,7 +618,6 @@ Link :hover :visited :after {
 }
 .categories {
   display: flex;
-  margin-left: 34px;
 }
 .categories ul {
   list-style: none;
@@ -631,12 +628,13 @@ Link :hover :visited :after {
   font-size: 17px;
   border-radius: 10px;
   margin-top: 100px;
-  margin-left: 22px;
+  margin-right: 22px;
   cursor: pointer;
 }
 .all-categories {
   background-color: #DECAFF;
   color: #5503DA;
+  margin-left: -40px;
 }
 .trending {
   color: #B7B7B7;
@@ -656,35 +654,38 @@ Link :hover :visited :after {
   border-radius: 10px;
   border: 1px solid #DECAFF;
 }
-.items-container {
-  margin: auto;
-  display: inline-block;
+.store-container {
+  background-color: #edecec;
+}
+.store-page {
+  margin-left: 75px;
+  margin-right: 75px;
+  background-color: #edecec;
 }
 .items {
-  /* display: inline-flex;
-  flex-direction: row; */
   width: 100%;
-  justify-content: space-around;
-  margin-top: 50px;
   margin-bottom: 50px;
   display: flex;
   flex-wrap: wrap;
   background-color: #edecec;
+  justify-content: space-between;
+  border: 2px solid transparent;
+
 }
+ .items :hover {
+  box-shadow: 0 0 1px green;
+  
+}
+
 .item-container {
   display: block;
-  width: 296px;
+  width: 310px;
   height: 430px;
   padding: 50px;
   border-radius: 20px;
-  border: 2px solid #2c0669;
   background: #fff;
   margin-top: 50px;
   margin-bottom: 50px;
-}
-.item-container img {
-  width: 281;
-  height: 208px;
 }
 .item-container h1 {
   color: #000;

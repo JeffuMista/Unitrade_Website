@@ -1,12 +1,14 @@
 import React from "react";
 import Item from "../components/Item";
 import products from "../components/data";
+import Categories from "../components/Categories";
 
 
 
 function Products() {
         return (
-            <div>
+            <div className='store-page'>
+                <Categories />
                 <div className='items'>
                 {products.map ( products => (
                 <Item  
@@ -25,11 +27,5 @@ function Products() {
         </div>
         )
      }
-    // return (
-    // <div>
-    //     {Items}
-    // </div>
-    // )
-
-
+    
 export default Products;

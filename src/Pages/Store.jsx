@@ -3,13 +3,13 @@ import Nav from "../components/Nav";
 import Help from "../components/Help";
 import Footer from "../components/Footer";
 import Products from "./Products";
-import Categories from "../components/Categories";
+import Slides from "../components/Carousel";
 
 function Store() {
     return (
-        <div>
+        <div className='store-container'>
             <Nav />
-            <Categories />
+            {/* <Slides /> */}
             <Products />
             <Help />
             <Footer />

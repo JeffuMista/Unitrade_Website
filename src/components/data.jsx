@@ -152,6 +152,14 @@ const productsData =  [
       image: "src/assets/Microwave.png",
       price: "450",
       quantity: "9"
-    }  
+    }, 
+    {
+      id: 20,
+      title: "Samsung 210Ltrs Double Door Fridge- RT26HAR2DSA -Silver",
+      image: "src/assets/Refrigerator.png",
+      price: "698",
+      quantity: "33"
+    }
+   
 ];
 export default productsData;
